@@ -36,6 +36,6 @@ Allows users to withdraw their previously deposited ETH. Uses the Checks-Effects
 ### `modifyMaxBalance(uint256 newMaxBalance_)` — `external onlyAdmin`
 Allows the admin to update the maximum balance allowed in the contract.
 
- Author
+### Author
 **Virginia Villela**  
 Blockchain Developer 
