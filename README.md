@@ -27,16 +27,19 @@ CryptoBank is a smart contract deployed on the Ethereum blockchain that simulate
 | Pattern | Checks-Effects-Interactions |
 
 ## Functions
-### `depositEther()` — `external payable`
+### depositEther()` — external payable
 Allows any user to deposit ETH into the bank. Reverts if the deposit would exceed the maximum balance.
 
-### `withdrawEther(uint256 amount_)` — `external`
+### withdrawEther(uint256 amount_) — external
 Allows users to withdraw their previously deposited ETH. Uses the Checks-Effects-Interactions pattern to prevent reentrancy.
 
-### `modifyMaxBalance(uint256 newMaxBalance_)` — `external onlyAdmin`
+### modifyMaxBalance(uint256 newMaxBalance_) — external onlyAdmin
 Allows the admin to update the maximum balance allowed in the contract.
 
-### 
+### Tecnologías
+Solidity 0.8.24
+Ethereum
+remix.ethereum.org
 
 ### Author
 **Virginia Villela**  
