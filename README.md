@@ -37,9 +37,9 @@ Allows users to withdraw their previously deposited ETH. Uses the Checks-Effects
 Allows the admin to update the maximum balance allowed in the contract.
 
 ### Tecnologías
-Solidity 0.8.24
-Ethereum
-remix.ethereum.org
+- Solidity 0.8.24
+- Ethereum
+- remix.ethereum.org
 
 ### Author
 **Virginia Villela**  
